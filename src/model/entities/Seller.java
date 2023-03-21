@@ -97,7 +97,7 @@ public class Seller implements Serializable{
 	@Override
 	public String toString() {
 		return String.format("Name: %s, Email: %s, Birth Date: %s"
-				+ ", Base Salary: %.2f, \nDepartment: %s"
+				+ ", Base Salary: %.2f \nDepartment: %s"
 				, name, email, dtf.format(birthDate), baseSalary
 				, department);
 	}
